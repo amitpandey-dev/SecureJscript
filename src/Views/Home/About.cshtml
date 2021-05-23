@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3> 
+
+<p>Use this area to provide additional information.</p>
+<div ng-app="aboutApp">
+    <div ng-controller="detailController">
+        <h2>{{phone}}</h2>
+        This is Example for hack-proof-your-javascript code in Angualar.
+        <h3>Contact me at email id: {{email}}</h3>
+    </div>
+</div>
+
+<script src="~/Scripts/scriptAbout.js"></script> 
